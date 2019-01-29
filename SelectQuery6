@@ -1,0 +1,12 @@
+Problema:
+
+Query the names of all the Japanese cities in the CITY table.
+
+Dica:
+
+The COUNTRYCODE for Japan is JPN.
+
+
+Query de Resolução:
+
+select NAME from CITY where COUNTRYCODE = 'JPN';
